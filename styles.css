@@ -1,0 +1,109 @@
+/*
+Challenge:
+Style the app according to the provided design.
+The font is called "Happy Monkey" and can be
+embedded via Google Fonts.
+
+Don't know how to make an image round? Google it!
+Also, consider how you should select the image 
+(class vs id vs element selector).
+*/
+body {
+  font-family: "Happy Monkey", display;
+  text-align: center;
+  background-color: #a2d2ff;
+  color: #ffffff;
+  background: linear-gradient(#034694, #001021);
+}
+#heropic {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  object-fit: fill;
+  border: 6px solid rgb(20, 18, 26);
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  text-shadow: 0px 0px 1px black;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#age {
+  background: #0c0a0aa9;
+  border-radius: 6px;
+  padding: 5px 10px;
+  margin: 5px 0 10px 0;
+}
+#date {
+  background: #0c0a0aa9;
+  border-radius: 6px;
+  padding: 5px 10px;
+  margin: 0;
+}
+.badge {
+  width: 400px;
+  border-radius: 50%;
+  border: 6px solid white;
+}
+.gift-section {
+  margin-top: 50px;
+}
+.celebration {
+  margin-bottom: 10px;
+}
+.instruction {
+  margin-top: 0;
+}
+.gift-img {
+  background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Chelsea_FC.svg/1280px-Chelsea_FC.svg.png);
+  background-size: cover;
+
+  width: 400px;
+  height: 400px;
+  border: 6px solid white;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+#gift-img-cold:hover {
+  background-image: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDFvOHVuY3k0Zmd6c2U0MjF5YXJjZ3VyN2g0NGpoYmdtYWJvdnVqZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zx8AL9JZnF3gHdfrq5/giphy.gif);
+}
+
+#gift-img-ice:hover {
+  background-image: url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXphbWluc2x4eG53Z3RzZTduaHNsYjYxenhsN2NlOGhsZWJnY21sdiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/f3Uob0vkEnv0uhIlc7/giphy.gif);
+}
+#gift-img-playmaker:hover {
+  background-image: url(https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3Znh1ODh6MW84bmM0Y2c2cnI2OWk0ZnE0c3I1eGFjZTQ0ZDZ2bzlrNiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/cWyUd9iUHb8oVOHqsd/giphy.gif);
+}
+#gift-img-london:hover {
+  background-image: url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXpocnZrdDhka2F6Ym94NmoxaGo2djF3cmJ5ZGV1b3NmbjJkeTQ0eSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/pbhTVORIM0kkLpMzT7/giphy.gif);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#gift-img-cwc {
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 200px;
+}
+#gift-img-cwc:hover {
+  background-image: url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXRxNDR4NTZiM3hmcnBmdnE2dDl6cG9iaXY1d3d6d3RyenljZzF3diZlcD12MV9naWZzX3NlYXJjaCZjdD1n/dwNZ3J7VKWbKY66fXp/giphy.gif);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#footer {
+  font-style: italic;
+  margin: 40px auto 20px;
+}
+a {
+  color: #ffffff;
+}
